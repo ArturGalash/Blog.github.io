@@ -26,7 +26,7 @@ a {
 }
 /*logo*/
 .logo {
-	padding: 24px 0 27px 0;
+	padding: 24px 0 25px 0;
 	float: left;
 }
 /*menu*/
@@ -34,21 +34,23 @@ a {
 	float: right;
 	margin: 20px 0 22px 0px;
 }
-.menu li{
+.menu-item {
 	float: left;
 	height: 35px;
 	width: 77px;
+	padding: 0 3px;
 }
-.menu a {
+.menu-link {
 	display: block;
 	font-size: 13px;
   	font-family: "Lato";
   	color: rgb(189, 195, 199);
   	font-weight: bold;
+  	text-transform: uppercase;
   	line-height: 35px;
   	text-align: center;
 }
-.menu li:hover a {
+.menu-item:hover .menu-link {
 	background-color: rgb(26, 188, 156);
 	border-radius: 2px; 
 	color: #ffffff;
@@ -58,15 +60,36 @@ a {
 	display: none;
 }
 .search {
-	margin: 29px 2px 32px 15px;
+	margin: 29px 2px 32px 20px;
 	background: url(image/Search.png) no-repeat;
 	width: 16px;
 	height: 16px;
 	float: right;
 	cursor: pointer;
 }
-
-  
-  
-
+/*second part of header, blog-name*/
+.block-name{
+	height: 282px;
+	background-color: #e8e8e8;
+	background: url(image/background-img.png);
+}
+.blog {
+	width: 110px;
+  	font-size: 42px;
+  	font-family: "Lato";
+  	color: rgb(255, 255, 255);
+  	line-height: 50px;
+  	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.16);
+  	cursor: pointer;
+  	text-transform: uppercase;
+  	padding-top: 70px;
+}
+.nav-link {
+	display: block;
+	width: 190px;
+  	font-size: 15px;
+  	font-family: "Lato";
+  	color: rgb(255, 255, 255);
+  	margin: 20px 3px;
+}
 

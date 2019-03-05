@@ -101,6 +101,7 @@ img {
 	background-color: #ffffff;
 	border-radius: 5px;
 	margin-top: -90px;
+	margin-bottom: 50px;
 }
 .left-column {
 	width: 770px;
@@ -186,4 +187,46 @@ img {
   	font-family: "Lato";
   	color: rgb(208, 211, 215);
   	float: right;
+}
+/*blog page content*/
+.content {
+  	font-size: 17px;
+  	font-family: "Lato";
+  	color: rgb(161, 168, 175);
+  	line-height: 1.353;
+}
+/*read more*/
+.read-more {
+	border: none;
+  	border-radius: 2px;
+  	background-color: rgb(26, 188, 156);
+  	width: 117px;
+  	height: 38px;
+  	font-size: 17px;
+  	font-family: "Lato";
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	line-height: 1.059;
+  	margin: 30px 0;
+  	cursor: pointer;
+}
+/*blog with player*/
+.fix {
+	margin-top: -30px;
+}
+/*load more*/
+.load-more {
+	border: none;
+  	border-radius: 2px;
+  	background-color: rgb(26, 188, 156);
+  	width: 120px;
+  	height: 40px;
+  	font-size: 17px;
+  	font-family: "Lato";
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	line-height: 1.059;
+  	margin: 20px 340px;
+  	cursor: pointer;
+	
 }

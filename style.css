@@ -68,21 +68,19 @@ a {
 	cursor: pointer;
 }
 /*second part of header, blog-name*/
-.block-name{
+.tagline {
 	height: 282px;
 	background-color: #e8e8e8;
 	background: url(image/background-img.png);
 }
 .blog {
-	width: 110px;
   	font-size: 42px;
   	font-family: "Lato";
   	color: rgb(255, 255, 255);
   	line-height: 50px;
   	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.16);
-  	cursor: pointer;
   	text-transform: uppercase;
-  	padding-top: 70px;
+  	padding-top: 60px;
 }
 .nav-link {
 	display: block;
@@ -91,5 +89,22 @@ a {
   	font-family: "Lato";
   	color: rgb(255, 255, 255);
   	margin: 20px 3px;
+}
+/*main block*/
+.wrapper {
+	padding: 15px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-top: -90px;
+}
+.left-column {
+	width: 770px;
+	margin: 15px;
+	float: left;
+}
+.right-column {
+	margin: 15px;
+	width: 310px;
+	float: right;
 }
 

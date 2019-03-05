@@ -1,3 +1,4 @@
+/*global style*/
 body {
 	font-family: 'Lato', sans-serif;
 	font-family: 'Titillium Web', sans-serif;
@@ -7,6 +8,10 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+img {
+	display: block;
 }
 /*header style*/
 .header {
@@ -92,19 +97,93 @@ a {
 }
 /*main block*/
 .wrapper {
-	padding: 15px;
+	padding: 0 15px;
 	background-color: #ffffff;
 	border-radius: 5px;
 	margin-top: -90px;
 }
 .left-column {
 	width: 770px;
-	margin: 15px;
+	margin: 0 15px;
 	float: left;
 }
 .right-column {
-	margin: 15px;
+	margin: 0 15px;
 	width: 310px;
 	float: right;
 }
-
+/*post blocks*/
+.post-block {
+	margin: 30px 0;
+}
+.img {
+	border-radius: 2px;
+  	background-color: rgb(26, 188, 156);
+}
+.type-box {
+	display: block;
+  	border-radius: 2px;
+  	background: url(image/type-pen.png) no-repeat 50% 50%;
+  	background-color: rgb(26, 188, 156);
+  	width: 59px;
+  	height: 58px;
+  	margin: 20px 20px 20px 0;
+  	float: left;
+}
+.title {
+  	font-size: 22px;
+  	font-family: "Lato";
+  	color: rgb(52, 73, 94);
+  	float: left;
+  	margin-top: 25px;
+}
+/*calendar, comments, location, views*/
+.meta {
+	float: left;
+}
+.meta-item {
+	float: left;
+	width: 115px;
+	margin: 14px 27px 0 0;
+	font-size: 14px;
+  	font-family: "Lato";
+  	color: rgb(208, 211, 215);
+}
+.calendar {
+	background: url(image/calendar.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 13px
+}
+.comments {
+	background: url(image/Comments.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 13px
+}
+.location {
+	background: url(image/Location.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 13px
+}
+.views {
+	background: url(image/views.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 13px
+}
+/*like*/
+.heart {
+	background: url(image/Heart.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 5px
+}
+.like {
+	margin-top: 14px;
+	font-size: 14px;
+  	font-family: "Lato";
+  	color: rgb(208, 211, 215);
+  	float: right;
+}

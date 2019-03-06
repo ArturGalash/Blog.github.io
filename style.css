@@ -37,13 +37,13 @@ img {
 /*menu*/
 .nav {
 	float: right;
-	margin: 20px 0 22px 0px;
+	margin: 20px 0 22px 0;
 }
 .menu-item {
 	float: left;
 	height: 35px;
-	width: 77px;
-	padding: 0 3px;
+	width: 100px;
+	margin: 0 5px;
 }
 .menu-link {
 	display: block;
@@ -59,6 +59,35 @@ img {
 	background-color: rgb(26, 188, 156);
 	border-radius: 2px; 
 	color: #ffffff;
+}
+/*submenu*/
+.submenu {
+	position: absolute;
+	background-color: rgb(52, 73, 94);
+	padding: 22px 0;
+	display: none;
+}
+.submenu-item {
+	position: relative;
+  	width: 175px;
+  	height: 30px;
+  	border-radius: 2px;
+}
+.submenu-link {
+  	font-size: 12px;
+  	font-family: "Lato";
+  	color: rgb(236, 240, 241);
+  	font-weight: bold;
+  	line-height: 2.25;
+  	text-align: left;
+  	padding: 0 14px;
+}
+.menu-bar .menu-item:hover .submenu {
+	display: block;
+}
+.menu-bar .submenu-portfolio:hover .menu-link {
+	background-color: rgb(52, 73, 94);
+	padding-bottom: 22px;
 }
 /*search in header*/
 .search-field {

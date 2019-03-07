@@ -446,15 +446,29 @@ img {
 }
 [class*="wrap-"] {
 	float: left;
-	height: 17px;
-  	background-color: #1abc9c;
-  	padding: 12px 15px;
+  	background-color: #ebeef2;
   	margin-left: 5px;
+  	height: 41px;
 }
 .wraplink {
+	display: block;
   	font-size: 13px;
   	font-family: "Lato";
-  	color: rgb(255, 255, 255);
+  	color: #47525d;
   	font-weight: bold;
-  	line-height: 13px;
+  	line-height: 17px;
+  	padding: 12px 15px;
 }
+[class*="wrap-"]:hover .wraplink {
+	color: #ffffff;
+	background-color: #1abc9c;
+}
+.sub-popular li{
+	height: 310px;
+	line-height: 310px
+}
+.lllllll {
+	height: 250px;
+}
+	
+

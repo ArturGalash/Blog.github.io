@@ -467,8 +467,43 @@ img {
 	height: 310px;
 	line-height: 310px
 }
-.lllllll {
-	height: 250px;
+.news {
+	margin: 14px 0;
 }
-	
+.news-img {
+	float: left;
+  	border:1px solid rgb(230, 230, 230);
+  	background-color: rgb(246, 246, 246);
+  	width: 61px;
+  	height: 61px;
+}
+.img-news {
+	width: 100%;
+}
+.news-block {
+  	font-size: 14px;
+  	font-family: "Lato";
+  	color: rgb(68, 68, 68);
+  	line-height: 1.286;
+  	height: 33px;
+  	margin-left: 73px;
+}
+.date {
+  	font-size: 12px;
+  	font-family: "Lato";
+  	color: rgb(95, 95, 95);
+  	line-height: 1.75;
+}
+.calendar-news {
+	background: url(image/Month.png) no-repeat 50% 50% ;
+	margin: 0 10px;
+	float: left;
+	width: 17px;
+  	height: 22px;
+}
+/*Footer*/
+.footer {
+  	height: 480px;
+  	background-color: #ffffff;
+}
 
